@@ -1,11 +1,7 @@
 
 # 🛡️ Safe Kid Webapp
 
-> **A comprehensive AI-powered system to detect, monitor, and prevent social media addiction and mental health risks among adolescents aged 10–18.**
-
----
-
-## 📌 Project Details
+##  Project Details
 
 - **Project Title:** Safe Kid Webapp  
 - **Authors:** 25-26J-251-Students  
@@ -15,12 +11,11 @@
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
 1. [Introduction](#-introduction)  
 2. [Problem Statement](#-problem-statement)  
-3. [Objectives](#-objectives)  
-4. [System Overview](#-system-overview)  
+3. [Objectives](#-objectives)    
 5. [System Architecture](#-system-architecture)  
 6. [Core Modules](#-core-modules)  
 7. [Technologies Used](#-technologies-used)  
@@ -38,15 +33,13 @@
 
 ---
 
-## 🚀 Introduction
+##  Introduction
 
-With the rapid increase in social media usage among children and adolescents, digital addiction and mental health concerns have become critical global issues. **Safe Kid Webapp** addresses these challenges by offering an intelligent, secure, and scalable platform that detects risky behavior patterns and enables early intervention.
-
-The system integrates **Artificial Intelligence (AI), Multimodal Analysis, Blockchain, and IoT technologies** to ensure accurate detection, transparency, and continuous monitoring.
+This project aims to detect and intervene in social media addiction among adolescents aged 10–18. It integrates AI-driven image and voice analysis, blockchain-secured data storage, IoT-based behavioral monitoring, and automated risk scoring. The system identifies harmful content, assesses addiction levels, and sends real-time alerts to authorized stakeholders, enabling early intervention and ensuring a safer digital environment for minors.
 
 ---
 
-## ❗ Problem Statement
+##  Problem Statement
 
 Adolescents are increasingly exposed to addictive social media content, leading to behavioral changes, mental health issues, and reduced academic performance. Existing solutions lack:
 - Real-time detection
@@ -56,7 +49,7 @@ Adolescents are increasingly exposed to addictive social media content, leading 
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Detect addictive social media content using AI  
 - Analyze behavioral patterns using multimodal data  
@@ -66,89 +59,72 @@ Adolescents are increasingly exposed to addictive social media content, leading 
 
 ---
 
-## 🧠 System Overview
 
-Safe Kid Webapp collects and analyzes data from multiple sources including:
-- Social media content
-- Parent/guardian complaints
-- Behavioral and physiological signals
+##  System Architecture
 
-Each data source is processed independently and combined into a final, explainable decision engine.
-
----
-
-## 🏗️ System Architecture
-
-The system follows a modular, microservice-based architecture:
-- AI-powered analysis modules
-- Central decision aggregation engine
-- Blockchain-based audit logging
-- Secure data storage and access control
+<img width="1920" height="741" alt="Untitled Diagram drawio (5) (1)" src="https://github.com/user-attachments/assets/092cf0da-7ede-4078-98f7-c956b3a2cddd" />
 
 
 
 ---
 
-## 🧩 Core Modules
+##  Core Modules
 
 ### 1. Addictive Content Analysis (IMPACT Component)
 
-**Description:**  
-Analyzes images, captions, and hashtags shared by adolescents to identify addictive patterns.
+**Objective**  
+To analyze social media content shared by adolescents and identify addictive patterns by evaluating images, captions, and hashtags using cognitive-based analysis techniques.
 
-**Features:**
-- Image processing and pattern recognition  
-- Caption sentiment analysis  
-- Hashtag trend detection  
-- Cognitive risk scoring  
+**Key Features**
+Multimodal content analysis combining image processing, caption sentiment analysis, and hashtag pattern detection.
+AI-driven cognitive scaling engine to quantify addiction risk levels. Real-time processing with automated risk scoring and reporting.
 
 **Applications:**
-- Early addiction identification  
-- Decision support for parents and educators  
+Early identification of social media addiction tendencies among adolescents. Decision support for parents, educators, and mental health professionals to enable timely intervention.
 
 ---
 
 ### 2. Multimodal Complaint-Driven Risk Detection
 
-**Description:**  
-Processes complaints submitted by parents and guardians in text or voice format.
+**Objective**  
+To analyze parent and guardian complaints submitted in text and voice formats in order to detect early signs of digital addiction in children and assess associated risk levels.
 
-**Features:**
-- Speech-to-text conversion  
-- Behavioral trend analysis  
-- Weighted risk scoring  
-- Automated reporting and alerts  
+**Key Features**
+The system accepts text and voice-based complaints, converting speech to text for accessibility. It analyzes content to detect digital addiction patterns, tracks behavior changes over time, calculates weighted risk scores, classifies risk levels, generates reports, and alerts counselors when critical thresholds are exceeded.
+
+**Applications:**
+The system can be applied in schools, counseling centers, and child welfare organizations to support early identification of digital addiction risks. By analyzing multimodal complaints, it enables timely risk assessment, automated reporting, and efficient intervention by assigned counselors.
 
 ---
 
 ### 3. Final Decision Behavior Analysis System
 
-**Description:**  
-Aggregates results from all modules to produce a reliable and explainable final decision.
+**Objective**  
+To analyze multi-source behavioral data and generate a reliable final decision that identifies addiction and mental health risks while ensuring privacy and accountability.
 
-**Features:**
-- Multi-agent AI reasoning  
-- Transformer-based aggregation  
-- Conflict-aware analysis  
-- Blockchain-secured audit logs  
+**Key Features**
+Multi-agent Al analysis of image, text, voice, and activity data, transformer-based final decision aggregation, conflict-aware reasoning across independent reports, explainable risk classification with confidence estimation, privacy-preserving data handling, blockchain-based audit logging of decisions and authority
+actions.
+
+**Applications:**
+Early detection of mental health and addiction risks, decision support for child protection and parental guidance, transparent authority notification and compliance tracking, remote monitoring support for vulnerable individuals.
 
 ---
 
 ### 4. Smart IoT-Based Behavioral Risk Monitoring System
 
-**Description:**  
-Uses IoT sensors to monitor real-time behavioral and physiological signals.
+**Objective**  
+To identify children aged 10–18 with potential mental health issues and support early diagnosis and treatment using real-time behavioral and physiological data.
 
-**Features:**
-- Facial expression and speech intensity analysis  
-- Heart rate, ECG, temperature monitoring  
-- Stress and anomaly detection  
-- Smart medical card generation  
-- SMS alerts  
+**Key Features**
+The system enables real-time monitoring of facial expressions, speech intensities, and body movements, while continuously monitoring vital signs such as heart rate, ECG, body temperature, and activity levels. By analyzing this data, it helps identify stress levels and abnormal behavior patterns. The system automatically generates a smart medical card containing the patient’s complete medical history and sends SMS alerts to ensure timely follow-up treatment and continuous medical support.  
+
+**Applications:**
+This system can be applied in hospitals, pediatric clinics, and mental health centers to support early detection of mental health issues in children aged 10–18. By integrating real-time behavioral and physiological data, it assists doctors in accurate assessment, continuous monitoring, timely follow-up, and improved clinical decision-making.
 
 ---
 
-## 🧪 Technologies Used
+##  Technologies Used
 
 - **Backend:** Python, Flask  
 - **Frontend:** React, Vite  
@@ -159,7 +135,7 @@ Uses IoT sensors to monitor real-time behavioral and physiological signals.
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone Repository
 
@@ -190,7 +166,7 @@ cd ..
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 - Update environment variables in `.env`
 - Configure API keys and database credentials
@@ -198,7 +174,7 @@ cd ..
 
 ---
 
-## ▶️ Running the Application
+##  Running the Application
 
 ### Backend
 
@@ -217,7 +193,7 @@ Runs on: `http://localhost:5173`
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Backend
 
@@ -234,7 +210,7 @@ npm run build
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - Detecting social media addiction  
 - Monitoring mental health risks  
@@ -244,7 +220,7 @@ npm run build
 
 ---
 
-## 🔐 Security & Privacy
+##  Security & Privacy
 
 - End-to-end data encryption  
 - Role-based access control  
@@ -253,7 +229,7 @@ npm run build
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Requires stable internet connectivity  
 - Accuracy depends on data quality  
@@ -261,7 +237,7 @@ npm run build
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Mobile application support  
 - Advanced deep learning models  
@@ -270,14 +246,14 @@ npm run build
 
 ---
 
-## 👥 Contributors
+##  Contributors
 
 - 25-26J-251-Students  
 - SLIIT Faculty of Computing  
 
 ---
 
-## 📞 Support
+##  Support
 
 For assistance:
 - Check documentation and issues  

@@ -72,54 +72,54 @@ Adolescents are increasingly exposed to addictive social media content, leading 
 
 ### 1. Addictive Content Analysis (IMPACT Component)
 
-**Objective**  
+**Objective :**  
 To analyze social media content shared by adolescents and identify addictive patterns by evaluating images, captions, and hashtags using cognitive-based analysis techniques.
 
-**Key Features**
+**Key Features :**
 Multimodal content analysis combining image processing, caption sentiment analysis, and hashtag pattern detection.
 AI-driven cognitive scaling engine to quantify addiction risk levels. Real-time processing with automated risk scoring and reporting.
 
-**Applications:**
+**Applications :**
 Early identification of social media addiction tendencies among adolescents. Decision support for parents, educators, and mental health professionals to enable timely intervention.
 
 ---
 
 ### 2. Multimodal Complaint-Driven Risk Detection
 
-**Objective**  
+**Objective :**  
 To analyze parent and guardian complaints submitted in text and voice formats in order to detect early signs of digital addiction in children and assess associated risk levels.
 
-**Key Features**
+**Key Features :**
 The system accepts text and voice-based complaints, converting speech to text for accessibility. It analyzes content to detect digital addiction patterns, tracks behavior changes over time, calculates weighted risk scores, classifies risk levels, generates reports, and alerts counselors when critical thresholds are exceeded.
 
-**Applications:**
+**Applications :**
 The system can be applied in schools, counseling centers, and child welfare organizations to support early identification of digital addiction risks. By analyzing multimodal complaints, it enables timely risk assessment, automated reporting, and efficient intervention by assigned counselors.
 
 ---
 
 ### 3. Final Decision Behavior Analysis System
 
-**Objective**  
+**Objective :**  
 To analyze multi-source behavioral data and generate a reliable final decision that identifies addiction and mental health risks while ensuring privacy and accountability.
 
-**Key Features**
+**Key Features :**
 Multi-agent Al analysis of image, text, voice, and activity data, transformer-based final decision aggregation, conflict-aware reasoning across independent reports, explainable risk classification with confidence estimation, privacy-preserving data handling, blockchain-based audit logging of decisions and authority
 actions.
 
-**Applications:**
+**Applications :**
 Early detection of mental health and addiction risks, decision support for child protection and parental guidance, transparent authority notification and compliance tracking, remote monitoring support for vulnerable individuals.
 
 ---
 
 ### 4. Smart IoT-Based Behavioral Risk Monitoring System
 
-**Objective**  
+**Objective :**  
 To identify children aged 10–18 with potential mental health issues and support early diagnosis and treatment using real-time behavioral and physiological data.
 
-**Key Features**
+**Key Features :**
 The system enables real-time monitoring of facial expressions, speech intensities, and body movements, while continuously monitoring vital signs such as heart rate, ECG, body temperature, and activity levels. By analyzing this data, it helps identify stress levels and abnormal behavior patterns. The system automatically generates a smart medical card containing the patient’s complete medical history and sends SMS alerts to ensure timely follow-up treatment and continuous medical support.  
 
-**Applications:**
+**Applications :**
 This system can be applied in hospitals, pediatric clinics, and mental health centers to support early detection of mental health issues in children aged 10–18. By integrating real-time behavioral and physiological data, it assists doctors in accurate assessment, continuous monitoring, timely follow-up, and improved clinical decision-making.
 
 ---
@@ -261,6 +261,6 @@ For assistance:
 
 ---
 
-## 📜 License
+##  License
 
 This project is developed for **academic and research purposes** under SLIIT.
